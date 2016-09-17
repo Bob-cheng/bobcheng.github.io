@@ -163,7 +163,7 @@ body {
 	color: #666;
 	font-style: normal;
 	font-weight: 400;
-	font-size: 14px;
+	font-size: 16px;
 	line-height: 30px;
 	padding: 0px 0px;
 }
@@ -172,7 +172,7 @@ p {
 	color: #666;
 	font-style: normal;
 	font-weight: 400;
-	font-size: 14px;
+	font-size: 16px;
 	line-height: 30px;
 }
 i {
@@ -204,20 +204,20 @@ h2 {
 }
 @media (max-width:768px) {
 	h2 {
-		font-size: 22px;
+		font-size: 24px;
 	}
 }
 h3 {
 	font-style: normal;
 	font-weight: 400;
 	line-height: 37px;
-	font-size: 20px;
+	font-size: 22px;
 	margin-top: 0;
 }
 h4 {
 	font-style: normal;
 	font-weight: 400;
-	font-size: 18px;
+	font-size: 20px;
 	line-height: 30px;
 	color: #333333;
 }
@@ -270,13 +270,13 @@ blockquote {
 blockquote p {
 	font-family: 'Georgia', "Open Sans", "Helvetica Neue", "Helvetica", "Hiragino Sans GB", "Microsoft YaHei", "Source Han Sans CN", "WenQuanYi Micro Hei", Arial, sans-serif;
 	font-style: italic;
-	font-size: 15px;
+	font-size: 17px;
 }
 blockquote footer {
 	background-color: transparent;
 	margin-top: 0;
 	padding: 0;
-	font-size: 12px;
+	font-size: 14px;
 }
 .table-responsive {
 	margin: 40px 0;
@@ -449,7 +449,7 @@ a.custom-button span {
 	-webkit-border-radius: 0;
 	-moz-border-radius: 0;
 	border-radius: 0;
-	font-size: 14px;
+	font-size: 16px;
     font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Hiragino Sans GB", "Microsoft YaHei", "Source Han Sans CN", "WenQuanYi Micro Hei", Arial, sans-serif;
 	font-weight: 700;
 	padding: 8px 18px;
@@ -963,7 +963,7 @@ span.sb-caret { /* Caret Down */
 	padding-top: 0;
 }
 #hero h2 {
-	color: #151515;
+	color: white;
 	margin-bottom: 20px;
 	display: inline-block;
 	padding: 14px;
@@ -3448,7 +3448,14 @@ footer .footer_bottom {
 @charset "utf-8";
 /* CSS Document */
 
+pre{
+	font-size: 15px;
+}
 
+
+.navbar .nav > li > a{
+	font-size: 14px;
+}
 .entry .gist {
   background: #eee;
   border: 1px solid color-border;
