@@ -9,3 +9,14 @@ pre{
 .navbar .nav > li > a{
 	font-size: 14px;
 }
+
+#ds-reset .ds-service-link {
+	background: transparent!important;
+}
+
+#ds-thread #ds-reset .ds-powered-by a {
+   color:transparent!important;
+   float:left;
+   margin-left:27em;
+
+}
