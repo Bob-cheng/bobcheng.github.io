@@ -20,3 +20,23 @@ pre{
    margin-left:27em;
 
 }
+#ds-thread #ds-reset .ds-textarea-wrapper{
+	background: white!important;
+}
+
+#ds-reset .ds-gradient-bg{
+	background: white!important;
+}
+
+#ds-thread #ds-reset .ds-post-options{
+	border-bottom-color:#ccc!important;
+}
+
+#ds-thread #ds-reset .ds-post-button{
+	background-image: none!important;
+	transition: all 0.5s!important;	
+}
+
+#ds-thread #ds-reset .ds-post-button:hover{
+    background-color:white!important;
+}
