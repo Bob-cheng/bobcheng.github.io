@@ -3421,7 +3421,7 @@ footer .footer_bottom {
 	background-color: gray;
 	color: #fff;
 }
-.duoshuo {
+.disqus {
 	width: 66%;
 	margin: auto;
 }
@@ -3457,7 +3457,7 @@ pre{
 	font-size: 14px;
 }
 
-#ds-reset .ds-service-link {
+/*#ds-reset .ds-service-link {
 	background: transparent!important;
 }
 
@@ -3486,7 +3486,7 @@ pre{
 
 #ds-thread #ds-reset .ds-post-button:hover{
     background-color:white!important;
-}
+}*/
 .entry .gist {
   background: #eee;
   border: 1px solid color-border;
